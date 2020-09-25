@@ -1,1 +1,3 @@
-# kutya_float
+#kutya projekt
+
+oldl létrehozása float technikával
