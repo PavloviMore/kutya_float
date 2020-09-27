@@ -12,10 +12,21 @@ body{
 }
 
 div .card{
-    border: 2px solid black;
+    border: 5px solid white;
+    width: 450px;
+    height: 450px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .card img{
-    width: 300px;
+    width: 140px;
+    height: 330px;
+    float: right;
+}
 
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
