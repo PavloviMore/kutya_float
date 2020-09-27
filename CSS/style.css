@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+
 body{
     background: url("../Pic/bg-body.gif") ;
 }
@@ -38,6 +40,7 @@ main{
     background: url("../Pic/header-backgound.jpg") top center fixed;
     color: lightsalmon;
     font-size: 5em;
+    font-family: "Keania One", sans-serif;
     font-weight: 700;
     padding: 80px 60px;
     text-shadow: 0 0 20px rgba(0,0,0,0.8);
