@@ -4,24 +4,21 @@ body{
 
 .wrapper{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
 }
 
-.header{
-    background: url("../Pic/header-backgound.jpg") top center fixed;
-    color: lightsalmon;
-    font-size: 5em;
-    font-weight: 700;
-    padding: 80px 60px;
-    text-shadow: 0 0 20px rgba(0,0,0,0.8);
-}
-
-div .card{
-    border: 5px solid white;
+.card{
+    border: 5px solid black;
+    background: white;
+    float: left;
     width: 450px;
     height: 450px;
     margin: 20px;
     padding: 20px;
+}
+
+.main{
+    padding: auto auto;
 }
 
 .card img{
@@ -35,3 +32,37 @@ div .card{
     display: block;
     clear: both;
 }
+
+
+.header{
+    background: url("../Pic/header-backgound.jpg") top center fixed;
+    color: lightsalmon;
+    font-size: 5em;
+    font-weight: 700;
+    padding: 80px 60px;
+    text-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+.float-right{
+    float: right;
+}
+
+nav {
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+nav a:hover{
+    background: gray;
+}
+
+nav a{
+    float: left;
+    background: lightgray;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
