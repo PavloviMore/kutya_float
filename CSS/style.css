@@ -2,6 +2,11 @@ body{
     background: url("../Pic/bg-body.gif") ;
 }
 
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
 .header{
     background: url("../Pic/header-backgound.jpg") top center fixed;
     color: lightsalmon;
