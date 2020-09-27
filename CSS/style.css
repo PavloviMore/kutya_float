@@ -17,7 +17,7 @@ body{
     padding: 20px;
 }
 
-.main{
+main{
     padding: auto auto;
 }
 
@@ -43,8 +43,28 @@ body{
     text-shadow: 0 0 20px rgba(0,0,0,0.8);
 }
 
+/* .footer a{
+    font-size: 30px;
+    color: white;
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.footer{
+    font-size: 30px;
+    color: white;
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+} */
+
 .float-right{
     float: right;
+}
+
+.float-left{
+    float: left;
 }
 
 nav {
